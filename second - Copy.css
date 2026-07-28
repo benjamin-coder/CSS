@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: bisque;
+}
+.class1 {
+  background-color: black;
+  padding: 20px;
+}
+.class1 > a {
+  text-decoration: none;
+  color: white;
+  margin-right: 20px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.class1 > a:hover {
+  color: blue;
+}
+.class2 {
+  background-color: lightskyblue;
+  padding: 150px;
+  text-align: center;
+}
+.class2 > h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.class2 > p {
+  color: white;
+  margin-top: 20px;
+}
+.class2 > button {
+  background-color: white;
+  border-radius: 25px;
+  padding: 12px;
+  margin-top: 20px;
+  color: lightgreen;
+  border: none;
+}
+.class2 > button:hover {
+  background-color: orange;
+  color: white;
+}
+.class3 {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 100px;
+  margin-bottom: 15px;
+}
+.class4 {
+  width: 2px;
+  height: 30px;
+  background-color: lightskyblue;
+  float: left;
+}
+.class3 > h3 {
+  padding: 5px;
+  margin-left: 10px;
+}
+.class5 {
+  padding-right: 100px;
+  padding-left: 100px;
+  display: flex;
+  gap: 20px;
+}
+.class5 > div {
+  background-color: burlywood;
+  padding: 50px;
+  border-radius: 10px;
+text-align: center;
+margin-bottom: 100px;
+}

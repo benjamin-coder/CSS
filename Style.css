@@ -1,0 +1,49 @@
+/* external styling is done by creating a separate css file amd using the link element   */
+/* by default the browser adds some values to margin and padding,
+ we disable these values by setting margin and padding to zero */
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+div {
+    height: 70svh;
+    font-size: 30px;
+    text-align: center;
+}
+#ben {
+    height: 70dvh;
+    background-color: yellow;
+    font-size: 30px;
+
+}
+.good {
+     height: 10dvh;
+    background-color: white
+    font-size: 30px;
+    font-display: block;
+    font-weight: bold;
+}
+main {
+    background-color: slateblue;
+    color: white;
+    border-radius: 10px;
+    padding: 8px;
+}
+#firstsection{
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    /* the shortcut for writing this border properties is border: 1px solid black */
+    padding: 10px;
+    
+}
+#secondsection{
+    border: 2px solid red;
+    padding: 10px;
+}
+body{
+    padding: 8px;
+    background-color: aqua;
+}

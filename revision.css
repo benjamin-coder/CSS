@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div {
+  border: 1px solid black;
+  height: 30vh;
+  width: 30vw;
+  padding: 30px;
+  margin: 30px;
+}
+section {
+  padding: 30px;
+  margin: 30px;
+  border: 1px solid red;
+}
+.container {
+  display: flex;
+}
+.one {
+  background-color: red;
+}
+.two {
+  background-color: yellow;
+}
+.three {
+  background-color: green;
+}
+.fourg {
+  background-color: black;
+}
+.oneg {
+  background-color: red;
+}
+.twog {
+  background-color: yellow;
+}
+.threeg {
+  background-color: green;
+}
+.container1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows:;
+}
+.container2 {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+.container2 div {
+  border: 1px solid black;
+  height: 20px;
+  width: 20px;
+  padding: 30px;
+  margin: 30px;
+}
+.ct1 {
+  grid-column: 1/13;
+  height: 20vh;
+}

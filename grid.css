@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div {
+  color: white;
+  background-color: black;
+  padding: 5em;
+  border: 1px solid white;
+}
+body {
+  display: grid;
+  grid-template-columns: 30vw 30vw 20vw;
+  grid-template-columns: repeat(2, 1fr);
+  grid template column: repeat (2, 1fr);
+  grid-template-rows: 1fr 2fr 3fr;
+  gap: 10px;
+}
